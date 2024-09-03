@@ -10,7 +10,7 @@ export default function Admin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('/api/append-data', {
+    const response = await fetch('https://insight-nest-five.vercel.app/api/append-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
