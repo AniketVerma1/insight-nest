@@ -3,6 +3,7 @@ import path from 'path';
 import fs from 'fs';
 
 export default function handler(req, res) {
+  
   if (req.method === 'POST') {
     const { title, tags, description, reference } = req.body;
 
@@ -26,6 +27,6 @@ export default function handler(req, res) {
 
     res.status(200).json({ message: 'Data appended successfully' });
   } else {
-    res.status(405).json({ message: 'Method not allowed' });
+    res.status(405).json({ message: 'Method not test allowed' });
   }
 }
