@@ -1,0 +1,49 @@
+.container {
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #282c34;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 300px;
+  text-align: center;
+}
+
+.readMore {
+  display: block;
+  margin-top: 1rem;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.tags {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.referenceLink {
+  margin-top: 0.5rem;
+  display: block;
+  color: #0070f3;
+  text-decoration: none;
+}
